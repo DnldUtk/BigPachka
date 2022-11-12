@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bb63a237199a432abe42eb5019e2fe4d" Name="Diagram1">
+        <EntityTypeShape EntityType="PachkaModel.sysdiagram" Width="1.5" PointX="7.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.user" Width="1.5" PointX="9.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.Агент" Width="1.5" PointX="3" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.Аналитик" Width="1.5" PointX="2.75" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.График_смены" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.Заявка" Width="1.5" PointX="5.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.Мастер_смены" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.Материал" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.Менеджер" Width="1.5" PointX="2.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.Поставщик" Width="1.5" PointX="3" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.Предложение" Width="1.5" PointX="5" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.Продукция" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.Производство" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.Сотрудник" Width="1.5" PointX="8.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.Точка_продажи" Width="1.5" PointX="0.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.Турникет" Width="1.5" PointX="10.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PachkaModel.Цех" Width="1.5" PointX="6" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="PachkaModel.FK_Агент_Точка_продажи" ManuallyRouted="false" />
+        <AssociationConnector Association="PachkaModel.FK_Заявка_Агент" ManuallyRouted="false" />
+        <AssociationConnector Association="PachkaModel.FK_Предложение_Агент" ManuallyRouted="false" />
+        <AssociationConnector Association="PachkaModel.FK_Предложение_Аналитик" ManuallyRouted="false" />
+        <AssociationConnector Association="PachkaModel.FK_График_смены_Мастер_смены" ManuallyRouted="false" />
+        <AssociationConnector Association="PachkaModel.FK_Производство_График_смены" ManuallyRouted="false" />
+        <AssociationConnector Association="PachkaModel.FK_Сотрудник_График_смены" ManuallyRouted="false" />
+        <AssociationConnector Association="PachkaModel.FK_Заявка_Менеджер" ManuallyRouted="false" />
+        <AssociationConnector Association="PachkaModel.FK_Заявка_Продукция" ManuallyRouted="false" />
+        <AssociationConnector Association="PachkaModel.FK_Предложение_Менеджер" ManuallyRouted="false" />
+        <AssociationConnector Association="PachkaModel.FK_Сотрудник_Цех" ManuallyRouted="false" />
+        <AssociationConnector Association="PachkaModel.МатериалИПоставщик" ManuallyRouted="false" />
+        <AssociationConnector Association="PachkaModel.ПродукцияИМатериал" ManuallyRouted="false" />
+        <AssociationConnector Association="PachkaModel.ПродукцияИПроизводство" ManuallyRouted="false" />
+        <AssociationConnector Association="PachkaModel.СотрудникИТурникет" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
